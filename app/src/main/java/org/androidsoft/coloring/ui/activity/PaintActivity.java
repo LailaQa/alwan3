@@ -471,7 +471,7 @@ public class PaintActivity extends AbstractColoringActivity implements PaintView
 		protected Uri _newImageUri;
 	}
 
-	/*private class BitmapSharer extends BitmapSaver {
+	private class BitmapSharer extends BitmapSaver {
 
 		public BitmapSharer() {
 			super();
@@ -488,7 +488,7 @@ public class PaintActivity extends AbstractColoringActivity implements PaintView
 				startActivity(Intent.createChooser(sharingIntent, getString(R.string.dialog_share)));
 			}
 		}
-	}*/
+	}
 
 	// The state of the whole drawing. This is used to transfer the state if
 	// the activity is re-created (e.g. due to orientation change).
